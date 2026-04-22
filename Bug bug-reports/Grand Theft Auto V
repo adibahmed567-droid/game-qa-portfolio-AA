@@ -1,0 +1,30 @@
+Game: Grand Theft Auto V
+
+Type: Physics / Collision
+
+Title: Character clipping through environment during high-speed vehicle exit
+
+Environment:
+
+Platform: PC / Console
+Mode: Open World Free Roam
+
+Steps to Reproduce:
+
+Drive a vehicle at high speed
+Crash into a solid object (wall/barrier)
+Immediately exit the vehicle
+
+Expected Result:
+Character exits vehicle safely without intersecting environment
+
+Actual Result:
+Character partially clips through ground or nearby object
+
+Severity: Medium
+
+Impact:
+Breaks immersion and may lead to temporary gameplay disruption
+
+Notes:
+Occurs more frequently at higher speeds and tight collision spaces
