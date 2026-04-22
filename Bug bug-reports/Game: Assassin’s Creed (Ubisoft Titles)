@@ -1,0 +1,28 @@
+Type: UI/UX
+
+Title: Inconsistent objective marker behavior during mission tracking
+
+Environment:
+
+Platform: PC / Console
+Mode: Main Story Missions
+
+Steps to Reproduce:
+
+Start a mission with multiple objectives
+Switch between objectives rapidly
+Track markers on HUD/map
+
+Expected Result:
+Objective markers update consistently and accurately reflect current target
+
+Actual Result:
+Markers lag, disappear temporarily, or point to incorrect locations
+
+Severity: Medium
+
+Impact:
+Causes confusion and disrupts mission flow
+
+Notes:
+More frequent in complex missions with multiple triggers
