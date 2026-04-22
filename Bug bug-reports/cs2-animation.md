@@ -1,18 +1,18 @@
-# 🐞 Bug Report – Counter-Strike 2
+#  Bug Report – Counter-Strike 2
 
-## 📌 Title
+##  Title
 Inconsistent weapon animation timing affects shooting responsiveness
 
 ---
 
-## 🎮 Environment
+##  Environment
 - Platform: PC  
 - Mode: Competitive  
 - Settings: High FPS  
 
 ---
 
-## 🔁 Steps to Reproduce
+##  Steps to Reproduce
 1. Launch Counter-Strike 2  
 2. Enter a competitive match  
 3. Fire single shots with rifles (AK-47 / M4)  
@@ -20,25 +20,25 @@ Inconsistent weapon animation timing affects shooting responsiveness
 
 ---
 
-## ✅ Expected Result
+## Expected Result
 Weapon animation should sync precisely with shot registration  
 
 ---
 
-## ❌ Actual Result
+##  Actual Result
 Slight delay/inconsistency between animation and shot feedback  
 
 ---
 
-## ⚠️ Severity
+##  Severity
 Medium  
 
 ---
 
-## 🎯 Impact
+##  Impact
 Reduces player confidence in shooting accuracy in competitive scenarios  
 
 ---
 
-## 📝 Notes
+##  Notes
 More noticeable after recent animation updates 
