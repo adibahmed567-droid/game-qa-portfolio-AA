@@ -1,0 +1,129 @@
+name: 🐛 Bug Report
+description: Report a general game bug affecting multiple players. For account-specific issues (bans, enforcement, crashes with error codes), use Forza Support instead.
+title: "[BUG] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Before You Submit
+        Please complete the following checklist before filing a bug report:
+        - [ ] I have **rebooted my device** and confirmed the issue persists.
+        - [ ] I have **reset settings to Default** and disabled background apps/overlays.
+        - [ ] I have checked [Xbox Live Status](https://support.xbox.com/xbox-live-status) for any ongoing outages.
+        - [ ] PC players: I have updated or rolled back my **GPU drivers** ([NVIDIA](https://www.nvidia.com/en-us/drivers/) | [AMD](https://www.amd.com/en/support/download/drivers.html) | [Intel ARC](https://www.intel.com/content/www/us/en/products/docs/discrete-gpus/arc/software/drivers.html)).
+        - [ ] This is **not** an account-specific issue (enforcement, ban, or a crash showing a link to https://aka.ms/ForzaSupport — those go to [Forza Support](https://support.forza.net)).
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Which platform are you playing on?
+      options:
+        - Xbox Series X/S
+        - Xbox One
+        - PC (Microsoft Store / Game Pass)
+        - PC (Steam)
+        - Steam Deck
+    validations:
+      required: true
+
+  - type: dropdown
+    id: bug_category
+    attributes:
+      label: Bug Category
+      description: What area of the game does this bug affect?
+      options:
+        - Gameplay / Races
+        - Online / Multiplayer
+        - Audio / Visual
+        - UI / Menus
+        - Progression / Saves
+        - Performance / Framerate
+        - Connection / Network
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: Clearly describe the bug. What happened? What did you expect to happen?
+      placeholder: "Example: After completing a Horizon Story mission, the completion reward screen freezes and requires a restart."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: List the exact steps needed to trigger the bug.
+      placeholder: |
+        1. Go to...
+        2. Start...
+        3. Observe that...
+    validations:
+      required: true
+
+  - type: textarea
+    id: frequency
+    attributes:
+      label: How often does this occur?
+      description: Is this always reproducible, intermittent, or did it happen once?
+      placeholder: "Example: Happens every time I complete a Drift Zone event."
+    validations:
+      required: true
+
+  - type: input
+    id: game_version
+    attributes:
+      label: Game Version
+      description: Found in Settings > About. Please include the full version number.
+      placeholder: "e.g. 1.0.123.456"
+    validations:
+      required: true
+
+  - type: textarea
+    id: pc_specs
+    attributes:
+      label: PC Specs (PC players only)
+      description: |
+        Include CPU, GPU, RAM, OS version, and GPU driver version.
+        Check [Forza Horizon 6 PC Specs](https://support.forza.net/hc/en-us/articles/50088215399827-Forza-Horizon-6-PC-Specs) to confirm your hardware meets minimum requirements.
+        Note: NVIDIA Pascal (GTX 1070/1080 and older) and AMD Polaris/Vega (RX 400/500 series and older) are **below minimum spec** and not supported.
+      placeholder: |
+        CPU: 
+        GPU: 
+        RAM: 
+        OS: Windows 10 / 11 / Steam Deck
+        GPU Driver Version:
+    validations:
+      required: false
+
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots / Video
+      description: Attach any screenshots or video clips that show the bug. Drag and drop files here.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context
+      description: Any other details that might help — e.g. specific car, region, event type, online/offline mode.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ### Not the right place?
+        - **Account issues, enforcement, bans:** [Forza Support](https://support.forza.net/hc/en-us/sections/4414972658323-Forza-Safety)
+        - **Game not launching / crashing on PC:** [My Game is Not Launching or Crashing on PC](https://support.forza.net/hc/en-us/articles/360007593074-My-Game-is-Not-Launching-or-is-Crashing-on-PC)
+        - **PC crash error codes:** [Forza Horizon 6 PC Crash Error Codes](https://support.forza.net/hc/en-us/articles/51642089902739-Forza-Horizon-6-PC-Crash-Error-Codes)
+        - **Network/multiplayer issues:** [Online and Network Connection Troubleshooting](https://support.forza.net/hc/en-us/articles/360001992147-Multiplayer-Online-and-Network-Connection-Troubleshooting)
+        - **Error directing you to aka.ms/ForzaSupport:** Follow that link — it's an account-level issue.
