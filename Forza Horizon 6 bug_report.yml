@@ -1,4 +1,4 @@
-name: 🐛 Bug Report
+name: 🐛 game bug affecting multiple players
 description: Report a general game bug affecting multiple players. For account-specific issues (bans, enforcement, crashes with error codes), use Forza Support instead.
 title: "[BUG] "
 labels: ["bug", "needs-triage"]
